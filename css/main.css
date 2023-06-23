@@ -81,6 +81,9 @@ img {
   width: 100%;
   border-radius: 5px; }
 
+.cat:hover {
+  transform: scale(0.93); }
+
 .preview-Rop div img {
   height: 110%;
   width: 100%; }
@@ -94,7 +97,8 @@ img {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  margin: 100px; }
+  padding: 2rem;
+  border-radius: 35px; }
 
 /* Nosotros */
 .nosgrid {
@@ -246,7 +250,7 @@ textarea {
     padding: 17px; }
   .preview-Rop {
     display: grid;
-    grid-template: repeat(4, 1fr)/repeat(4, 1fr);
+    grid-template: repeat(1, 1fr)/repeat(4, 1fr);
     grid-gap: 10px 1px; }
   /*Nosotros*/
   .cont-nos {
@@ -354,6 +358,9 @@ img {
   width: 100%;
   border-radius: 5px; }
 
+.cat:hover {
+  transform: scale(0.93); }
+
 .preview-Rop div img {
   height: 110%;
   width: 100%; }
@@ -367,7 +374,8 @@ img {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  margin: 100px; }
+  padding: 2rem;
+  border-radius: 35px; }
 
 /* Nosotros */
 .nosgrid {
@@ -580,6 +588,9 @@ img {
   width: 100%;
   border-radius: 5px; }
 
+.cat:hover {
+  transform: scale(0.93); }
+
 .preview-Rop div img {
   height: 110%;
   width: 100%; }
@@ -593,7 +604,8 @@ img {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  margin: 100px; }
+  padding: 2rem;
+  border-radius: 35px; }
 
 /* Nosotros */
 .nosgrid {
@@ -795,6 +807,9 @@ img {
   width: 100%;
   border-radius: 5px; }
 
+.cat:hover {
+  transform: scale(0.93); }
+
 .preview-Rop div img {
   height: 110%;
   width: 100%; }
@@ -808,7 +823,8 @@ img {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  margin: 100px; }
+  padding: 2rem;
+  border-radius: 35px; }
 
 /* Nosotros */
 .nosgrid {
@@ -960,7 +976,7 @@ textarea {
     padding: 17px; }
   .preview-Rop {
     display: grid;
-    grid-template: repeat(4, 1fr)/repeat(4, 1fr);
+    grid-template: repeat(1, 1fr)/repeat(4, 1fr);
     grid-gap: 10px 1px; }
   /*Nosotros*/
   .cont-nos {

@@ -93,6 +93,10 @@ img{
     border-radius: 5px;
 }
 
+.cat:hover{
+    transform: scale(0.93);
+}
+
 .preview-Rop div img{
     height: 110%;
     width: 100%;
@@ -104,8 +108,11 @@ img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    margin: 100px;
+    padding: 2rem;
+    border-radius: 35px;
 }
+
+
 
 /* Nosotros */
 .nosgrid{
