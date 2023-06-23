@@ -1,4 +1,5 @@
 @import"../scss/variable";
+@import"../scss/extend";
 
 /*Reset*/
 
@@ -63,19 +64,21 @@ img{
 }
 
 .button-rem{
+    @extend %padding_border;
     background-color: $rojo-tra;
     border: #131513 solid 1.5px;
-    border-radius: 12px;
     color: $blanco;
-    padding: 1rem;
     text-align: center;
+}
+
+.button{
+    @extend %button_tam;
 }
 
 .seccion{
     @include flex-row-center;
+    @extend %padding_border;
     background-color: $rojo;
-    padding: 1rem;
-    border-radius: 10px;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -88,8 +91,7 @@ img{
 
 
 .cat{
-    height: 100%;
-    width: 100%;
+    @extend %size;
     border-radius: 5px;
     transition: 2s;
 }
@@ -106,15 +108,17 @@ img{
 .ropa-top{
     @include flex-row-center;
 }
+
+.ropa-top div img{
+    @extend %size;
+}
+
 .ropa1{
-    height: 100%;
-    width: 100%;
+    @extend %size;
     object-fit: cover;
     padding: 2rem;
     border-radius: 35px;
 }
-
-
 
 /* Nosotros */
 .nosgrid{
@@ -198,10 +202,9 @@ form{
 }
 input,
   textarea {
+    @extend %padding_border;
     margin: 5px;
     background-color: $blanco;
-    border-radius: 10px;
-    padding: 15px; 
     text-align: center;
 }
 

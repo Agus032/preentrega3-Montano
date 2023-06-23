@@ -1,5 +1,6 @@
 @import"../scss/variable";
 @import"../scss/general";
+@import"../scss/extend";
 
 @media (min-width: 1024px) {
     h1,h2{
@@ -31,9 +32,6 @@
     }
     .button{
         background: $gris-humo;
-        padding: 1.5rem;
-        height: 1.5rem;
-        border-radius: 1rem;
     }
     .cat-bottom{
         @include flex-colum-around;

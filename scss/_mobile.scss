@@ -1,6 +1,7 @@
 @import"../scss/variable";
 @import"../scss/general";
 @import"../scss/desktop";
+@import"../scss/extend";
 
 
 @media (max-width: 768px){
@@ -44,9 +45,6 @@
     .button{
         background-color: $blanco-tra;
         position: absolute;
-        padding: 1.5rem;
-        height: 1.5rem;
-        border-radius: 1rem;
     }
 
     .preview-Rop{

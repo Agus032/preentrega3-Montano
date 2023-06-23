@@ -1,4 +1,18 @@
 /* comentario en scss y css*/
+.button-rem, .seccion, input,
+textarea {
+  padding: 1rem;
+  border-radius: 11px; }
+
+.button {
+  padding: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1rem; }
+
+.cat, .ropa-top div img, .ropa1 {
+  width: 100%;
+  height: 100%; }
+
 /*Reset*/
 * {
   margin: 0;
@@ -54,9 +68,7 @@ img {
 .button-rem {
   background-color: rgba(152, 24, 20, 0.6);
   border: #131513 solid 1.5px;
-  border-radius: 12px;
   color: #f4f4f4;
-  padding: 1rem;
   text-align: center; }
 
 .seccion {
@@ -64,8 +76,6 @@ img {
   flex-direction: row;
   justify-content: center;
   background-color: #981914;
-  padding: 1rem;
-  border-radius: 10px;
   margin-top: 1rem;
   margin-bottom: 1rem; }
 
@@ -77,8 +87,6 @@ img {
   padding: 17px; }
 
 .cat {
-  height: 100%;
-  width: 100%;
   border-radius: 5px;
   transition: 2s; }
 
@@ -96,8 +104,6 @@ img {
   justify-content: center; }
 
 .ropa1 {
-  height: 100%;
-  width: 100%;
   object-fit: cover;
   padding: 2rem;
   border-radius: 35px; }
@@ -186,8 +192,6 @@ input,
 textarea {
   margin: 5px;
   background-color: #f4f4f4;
-  border-radius: 10px;
-  padding: 15px;
   text-align: center; }
 
 /*Catalogo */
@@ -220,6 +224,20 @@ textarea {
 .respuesta {
   margin-bottom: 50px; }
 
+.button-rem, .seccion, input,
+textarea {
+  padding: 1rem;
+  border-radius: 11px; }
+
+.button {
+  padding: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1rem; }
+
+.cat, .ropa-top div img, .ropa1 {
+  width: 100%;
+  height: 100%; }
+
 @media (min-width: 1024px) {
   h1, h2 {
     font-size: 30px; }
@@ -240,10 +258,7 @@ textarea {
   .cat {
     border-radius: 15px; }
   .button {
-    background: rgba(244, 244, 244, 0.5);
-    padding: 1.5rem;
-    height: 1.5rem;
-    border-radius: 1rem; }
+    background: rgba(244, 244, 244, 0.5); }
   .cat-bottom {
     display: flex;
     flex-direction: column;
@@ -278,6 +293,20 @@ textarea {
   .info-maps {
     grid-area: info; } }
 
+.button-rem, .seccion, input,
+textarea {
+  padding: 1rem;
+  border-radius: 11px; }
+
+.button {
+  padding: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1rem; }
+
+.cat, .ropa-top div img, .ropa1 {
+  width: 100%;
+  height: 100%; }
+
 /*Reset*/
 * {
   margin: 0;
@@ -333,9 +362,7 @@ img {
 .button-rem {
   background-color: rgba(152, 24, 20, 0.6);
   border: #131513 solid 1.5px;
-  border-radius: 12px;
   color: #f4f4f4;
-  padding: 1rem;
   text-align: center; }
 
 .seccion {
@@ -343,8 +370,6 @@ img {
   flex-direction: row;
   justify-content: center;
   background-color: #981914;
-  padding: 1rem;
-  border-radius: 10px;
   margin-top: 1rem;
   margin-bottom: 1rem; }
 
@@ -356,8 +381,6 @@ img {
   padding: 17px; }
 
 .cat {
-  height: 100%;
-  width: 100%;
   border-radius: 5px;
   transition: 2s; }
 
@@ -375,8 +398,6 @@ img {
   justify-content: center; }
 
 .ropa1 {
-  height: 100%;
-  width: 100%;
   object-fit: cover;
   padding: 2rem;
   border-radius: 35px; }
@@ -465,8 +486,6 @@ input,
 textarea {
   margin: 5px;
   background-color: #f4f4f4;
-  border-radius: 10px;
-  padding: 15px;
   text-align: center; }
 
 /*Catalogo */
@@ -510,6 +529,20 @@ footer {
     width: 35px;
     padding: 5px; }
 
+.button-rem, .seccion, input,
+textarea {
+  padding: 1rem;
+  border-radius: 11px; }
+
+.button {
+  padding: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1rem; }
+
+.cat, .ropa-top div img, .ropa1 {
+  width: 100%;
+  height: 100%; }
+
 /*Reset*/
 * {
   margin: 0;
@@ -565,9 +598,7 @@ img {
 .button-rem {
   background-color: rgba(152, 24, 20, 0.6);
   border: #131513 solid 1.5px;
-  border-radius: 12px;
   color: #f4f4f4;
-  padding: 1rem;
   text-align: center; }
 
 .seccion {
@@ -575,8 +606,6 @@ img {
   flex-direction: row;
   justify-content: center;
   background-color: #981914;
-  padding: 1rem;
-  border-radius: 10px;
   margin-top: 1rem;
   margin-bottom: 1rem; }
 
@@ -588,8 +617,6 @@ img {
   padding: 17px; }
 
 .cat {
-  height: 100%;
-  width: 100%;
   border-radius: 5px;
   transition: 2s; }
 
@@ -607,8 +634,6 @@ img {
   justify-content: center; }
 
 .ropa1 {
-  height: 100%;
-  width: 100%;
   object-fit: cover;
   padding: 2rem;
   border-radius: 35px; }
@@ -697,8 +722,6 @@ input,
 textarea {
   margin: 5px;
   background-color: #f4f4f4;
-  border-radius: 10px;
-  padding: 15px;
   text-align: center; }
 
 /*Catalogo */
@@ -730,6 +753,20 @@ textarea {
 
 .respuesta {
   margin-bottom: 50px; }
+
+.button-rem, .seccion, input,
+textarea {
+  padding: 1rem;
+  border-radius: 11px; }
+
+.button {
+  padding: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1rem; }
+
+.cat, .ropa-top div img, .ropa1 {
+  width: 100%;
+  height: 100%; }
 
 /*Reset*/
 * {
@@ -786,9 +823,7 @@ img {
 .button-rem {
   background-color: rgba(152, 24, 20, 0.6);
   border: #131513 solid 1.5px;
-  border-radius: 12px;
   color: #f4f4f4;
-  padding: 1rem;
   text-align: center; }
 
 .seccion {
@@ -796,8 +831,6 @@ img {
   flex-direction: row;
   justify-content: center;
   background-color: #981914;
-  padding: 1rem;
-  border-radius: 10px;
   margin-top: 1rem;
   margin-bottom: 1rem; }
 
@@ -809,8 +842,6 @@ img {
   padding: 17px; }
 
 .cat {
-  height: 100%;
-  width: 100%;
   border-radius: 5px;
   transition: 2s; }
 
@@ -828,8 +859,6 @@ img {
   justify-content: center; }
 
 .ropa1 {
-  height: 100%;
-  width: 100%;
   object-fit: cover;
   padding: 2rem;
   border-radius: 35px; }
@@ -918,8 +947,6 @@ input,
 textarea {
   margin: 5px;
   background-color: #f4f4f4;
-  border-radius: 10px;
-  padding: 15px;
   text-align: center; }
 
 /*Catalogo */
@@ -951,6 +978,20 @@ textarea {
 
 .respuesta {
   margin-bottom: 50px; }
+
+.button-rem, .seccion, input,
+textarea {
+  padding: 1rem;
+  border-radius: 11px; }
+
+.button {
+  padding: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1rem; }
+
+.cat, .ropa-top div img, .ropa1 {
+  width: 100%;
+  height: 100%; }
 
 @media (min-width: 1024px) {
   h1, h2 {
@@ -972,10 +1013,7 @@ textarea {
   .cat {
     border-radius: 15px; }
   .button {
-    background: rgba(244, 244, 244, 0.5);
-    padding: 1.5rem;
-    height: 1.5rem;
-    border-radius: 1rem; }
+    background: rgba(244, 244, 244, 0.5); }
   .cat-bottom {
     display: flex;
     flex-direction: column;
@@ -1010,6 +1048,20 @@ textarea {
   .info-maps {
     grid-area: info; } }
 
+.button-rem, .seccion, input,
+textarea {
+  padding: 1rem;
+  border-radius: 11px; }
+
+.button {
+  padding: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1rem; }
+
+.cat, .ropa-top div img, .ropa1 {
+  width: 100%;
+  height: 100%; }
+
 @media (max-width: 768px) {
   a, p, li, label, input {
     font-size: 10px; }
@@ -1036,10 +1088,7 @@ textarea {
     border-radius: 10px; }
   .button {
     background-color: rgba(232, 232, 231, 0.91);
-    position: absolute;
-    padding: 1.5rem;
-    height: 1.5rem;
-    border-radius: 1rem; }
+    position: absolute; }
   .preview-Rop {
     display: grid;
     grid-template: repeat(2, 1fr)/repeat(2, 1fr);
