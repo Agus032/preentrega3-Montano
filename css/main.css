@@ -79,10 +79,12 @@ img {
 .cat {
   height: 100%;
   width: 100%;
-  border-radius: 5px; }
+  border-radius: 5px;
+  transition: 2s; }
 
 .cat:hover {
-  transform: scale(0.93); }
+  transform: scale(0.93);
+  transition: 1s; }
 
 .preview-Rop div img {
   height: 110%;
@@ -356,10 +358,12 @@ img {
 .cat {
   height: 100%;
   width: 100%;
-  border-radius: 5px; }
+  border-radius: 5px;
+  transition: 2s; }
 
 .cat:hover {
-  transform: scale(0.93); }
+  transform: scale(0.93);
+  transition: 1s; }
 
 .preview-Rop div img {
   height: 110%;
@@ -586,10 +590,12 @@ img {
 .cat {
   height: 100%;
   width: 100%;
-  border-radius: 5px; }
+  border-radius: 5px;
+  transition: 2s; }
 
 .cat:hover {
-  transform: scale(0.93); }
+  transform: scale(0.93);
+  transition: 1s; }
 
 .preview-Rop div img {
   height: 110%;
@@ -805,10 +811,12 @@ img {
 .cat {
   height: 100%;
   width: 100%;
-  border-radius: 5px; }
+  border-radius: 5px;
+  transition: 2s; }
 
 .cat:hover {
-  transform: scale(0.93); }
+  transform: scale(0.93);
+  transition: 1s; }
 
 .preview-Rop div img {
   height: 110%;
