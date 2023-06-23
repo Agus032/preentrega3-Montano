@@ -1,0 +1,230 @@
+@import"../scss/variable";
+
+/*Reset*/
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: $negro;
+    margin-top: 5rem;
+}
+
+h1,h2{
+    color: $blanco;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+li{
+    color: $blanco;
+}
+
+img{
+    border-radius: 10px;
+}
+
+/*Index menu*/
+.cabezera{
+    background-image: url(../img/Copia-santana.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-color: $blanco-tra;
+    position: sticky;
+}
+
+.menu{
+    @include flex-row-center;
+    padding: 0.5rem;
+    margin: 2rem;
+    li{
+        text-decoration: none;
+        font-size: 12px;
+        a{
+            color: $blanco;
+        }
+    }
+}
+
+#inicio{
+    position: relative;
+    background-size: 170px;
+    padding-top: 70px;
+    background-position-y: 40px  ;
+    background-color: #333333;
+}
+
+.button-rem{
+    background-color: $rojo-tra;
+    border: #131513 solid 1.5px;
+    border-radius: 12px;
+    color: $blanco;
+    padding: 1rem;
+    text-align: center;
+}
+
+.seccion{
+    @include flex-row-center;
+    background-color: $rojo;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cat-bottom{
+        @include flex-colum-around;
+        align-items: center;
+        padding: 17px;
+}
+
+
+.cat{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.preview-Rop div img{
+    height: 110%;
+    width: 100%;
+}
+.ropa-top{
+    @include flex-row-center;
+}
+.ropa1{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 100px;
+}
+
+/* Nosotros */
+.nosgrid{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nosotros"
+    "footer";
+    grid-column: auto;
+    grid-row: auto;
+}
+header{
+    grid-area: header;
+}
+.cont-nos{
+    grid-area: nosotros;
+}
+footer{
+    grid-area: footer;
+}
+.cont-nos{
+    @include flex-between-center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    .nos-1{
+        @include flex-row-center;
+        background-color: $rojo;
+        padding: 3rem;
+        border-radius: 15px;
+        align-items: center;
+    }
+    .nos-2{
+        padding: 100px;
+        background-color: $blanco;
+        border-radius: 25px;
+    }
+}
+
+/*Mayorista*/
+.may-tit{
+    background-color: $blanco;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    h1{
+        color: $negro;
+    }
+}
+.may-exp{
+    text-align: center;
+    color: $blanco;
+    margin: 1rem;
+    padding: 2rem;
+}
+.infoymaps{
+    @include flex-row-center;
+}
+.info-maps{
+    background-color: $rojo;
+    text-align: center;
+    padding: 5rem;
+    border: 5px;
+}
+.info-maps h2{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+iframe{
+    width: 800px;
+    height: 400px;
+    object-fit: cover
+}
+form{
+    @include flex-colum-center;
+    color: $blanco;
+    padding: 5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    legend{
+        text-align: center;
+    }
+}
+input,
+  textarea {
+    margin: 5px;
+    background-color: $blanco;
+    border-radius: 10px;
+    padding: 15px; 
+    text-align: center;
+}
+
+/*Catalogo */
+.cata{
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    grid-gap: 60px 40px;
+    margin: 3rem;   
+    div{
+        img{
+            border-radius: 20px ;
+        }
+    }
+}
+
+.fts-rem{
+    @include flex-colum-center;
+}
+
+.remeras{
+    margin-top: 2rem
+}
+
+/*Faqs*/
+.faqs{
+    @include flex-colum-center;
+    background-color: $rojo;
+    margin: 3rem;
+    margin-top: 8rem;
+    padding: 4rem;
+}
+.respuesta{
+    margin-bottom: 50px;
+}
