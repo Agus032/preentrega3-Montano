@@ -8,7 +8,6 @@
     a,p,li,label,input{
         font-size: 10px;
     }
-
     h1,h2,legend{
         font-size: 12px;
     }
@@ -19,17 +18,15 @@
         display: block;
         padding: 1rem;
     }
-
     .ropa1{
-        grid-row: span3;
+        padding: 5PX;
+        border-radius: 15px;
     }
-
     .ropa-top div img{
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
-    
     .cat-bottom{
         align-items: center;
         padding: 17px;
@@ -41,24 +38,20 @@
         width: 50%;
         border-radius: 10px;
     }
-
     .button{
         background-color: $blanco-tra;
         position: absolute;
     }
-
     .preview-Rop{
         display: grid;
         grid-template: repeat(2, 1fr) / repeat(2, 1fr);
         grid-gap: 100px 20px;
         margin: 1,5rem;  
     }
-
     .ropa-top div img{
         height: 50%;
         width: 50%;   
     }
-    
 
     /*Nosotros*/
     .cont-nos{
@@ -103,12 +96,12 @@
     .cata{
         display: grid;
         grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-        grid-gap: 100px 20px;
-        margin: 1,5rem;   
+        grid-gap: 70px 18px;
+        margin: 1rem;
+           
     }
     .fts-rem{
-        width: 155px ;
-        height: 90px;
+        align-items: center;
     }
     .button-rem{
         padding: 3px;
@@ -117,4 +110,18 @@
         margin-top: 110px;
     }
     
+    /*Faqs*/
+    .faqs{
+        display: grid;
+        grid-template-areas: 
+        "cont1 cont2"
+        "cont3 cont4"
+        ;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(2, 13.5rem);
+        justify-content: center;
+        margin-top:7rem;
+        margin-bottom: 0.5rem;
+        grid-gap: 55px 20px;
+    }
 }

@@ -8,7 +8,6 @@
     }
 
     /*Inicio*/
- 
     .catgrid{
         display: grid;
         grid-template-areas: "cat1 cat2 cat3";
@@ -17,7 +16,6 @@
         margin-top: 1rem;
         justify-content: center;
     }
-    
     .cat1{
         grid-area: cat1;
     }
@@ -38,8 +36,6 @@
         align-items: center;
         padding: 17px;
     }
-    
-    
     .preview-Rop{
         display: grid;
         grid-template: repeat(1, 1fr) / repeat(4, 1fr) ;
@@ -78,10 +74,10 @@
     .info-maps{
         grid-area: info;
     }
-    
-    // iframe{
-    //     width: 800px;
-    //     height: 600px;
-    // }
 
+    /*FAQS*/
+    .faqs div h2{
+        font-size: 20px;
+
+    }
 }

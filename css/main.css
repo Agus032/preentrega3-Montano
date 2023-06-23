@@ -211,18 +211,50 @@ textarea {
 .remeras {
   margin-top: 2rem; }
 
+.rem-cat {
+  transition: 1s; }
+
+.rem-cat:hover {
+  transform: scale(1.2);
+  transition: 2.5s; }
+
 /*Faqs*/
 .faqs {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-areas: "cont1 cont2 cont3 cont4";
+  grid-template-rows: auto;
+  grid-template-columns: repeat(4, 16rem);
   justify-content: center;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+  grid-gap: 55px 30px; }
+
+.contenedor-faqs-1 {
+  grid-area: cont1; }
+
+.contenedor-faqs-2 {
+  grid-area: cont2; }
+
+.contenedor-faqs-3 {
+  grid-area: cont3; }
+
+.contenedor-faqs-4 {
+  grid-area: cont4; }
+
+.contenedor-faqs-1, .contenedor-faqs-2, .contenedor-faqs-3, .contenedor-faqs-4 {
+  text-align: center;
   background-color: #981914;
-  margin: 3rem;
-  margin-top: 8rem;
-  padding: 4rem; }
+  padding: 2rem;
+  transition: 1s;
+  align-items: center;
+  border-radius: 10px; }
+
+.contenedor-faqs-1:hover, .contenedor-faqs-2:hover, .contenedor-faqs-3:hover, .contenedor-faqs-4:hover {
+  transform: scale(1.1);
+  transition: 3s; }
 
 .respuesta {
-  margin-bottom: 50px; }
+  margin-bottom: auto; }
 
 .button-rem, .seccion, input,
 textarea {
@@ -291,7 +323,10 @@ textarea {
   .maps {
     grid-area: maps; }
   .info-maps {
-    grid-area: info; } }
+    grid-area: info; }
+  /*FAQS*/
+  .faqs div h2 {
+    font-size: 20px; } }
 
 .button-rem, .seccion, input,
 textarea {
@@ -505,18 +540,50 @@ textarea {
 .remeras {
   margin-top: 2rem; }
 
+.rem-cat {
+  transition: 1s; }
+
+.rem-cat:hover {
+  transform: scale(1.2);
+  transition: 2.5s; }
+
 /*Faqs*/
 .faqs {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-areas: "cont1 cont2 cont3 cont4";
+  grid-template-rows: auto;
+  grid-template-columns: repeat(4, 16rem);
   justify-content: center;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+  grid-gap: 55px 30px; }
+
+.contenedor-faqs-1 {
+  grid-area: cont1; }
+
+.contenedor-faqs-2 {
+  grid-area: cont2; }
+
+.contenedor-faqs-3 {
+  grid-area: cont3; }
+
+.contenedor-faqs-4 {
+  grid-area: cont4; }
+
+.contenedor-faqs-1, .contenedor-faqs-2, .contenedor-faqs-3, .contenedor-faqs-4 {
+  text-align: center;
   background-color: #981914;
-  margin: 3rem;
-  margin-top: 8rem;
-  padding: 4rem; }
+  padding: 2rem;
+  transition: 1s;
+  align-items: center;
+  border-radius: 10px; }
+
+.contenedor-faqs-1:hover, .contenedor-faqs-2:hover, .contenedor-faqs-3:hover, .contenedor-faqs-4:hover {
+  transform: scale(1.1);
+  transition: 3s; }
 
 .respuesta {
-  margin-bottom: 50px; }
+  margin-bottom: auto; }
 
 footer {
   background-color: #981914;
@@ -741,18 +808,50 @@ textarea {
 .remeras {
   margin-top: 2rem; }
 
+.rem-cat {
+  transition: 1s; }
+
+.rem-cat:hover {
+  transform: scale(1.2);
+  transition: 2.5s; }
+
 /*Faqs*/
 .faqs {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-areas: "cont1 cont2 cont3 cont4";
+  grid-template-rows: auto;
+  grid-template-columns: repeat(4, 16rem);
   justify-content: center;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+  grid-gap: 55px 30px; }
+
+.contenedor-faqs-1 {
+  grid-area: cont1; }
+
+.contenedor-faqs-2 {
+  grid-area: cont2; }
+
+.contenedor-faqs-3 {
+  grid-area: cont3; }
+
+.contenedor-faqs-4 {
+  grid-area: cont4; }
+
+.contenedor-faqs-1, .contenedor-faqs-2, .contenedor-faqs-3, .contenedor-faqs-4 {
+  text-align: center;
   background-color: #981914;
-  margin: 3rem;
-  margin-top: 8rem;
-  padding: 4rem; }
+  padding: 2rem;
+  transition: 1s;
+  align-items: center;
+  border-radius: 10px; }
+
+.contenedor-faqs-1:hover, .contenedor-faqs-2:hover, .contenedor-faqs-3:hover, .contenedor-faqs-4:hover {
+  transform: scale(1.1);
+  transition: 3s; }
 
 .respuesta {
-  margin-bottom: 50px; }
+  margin-bottom: auto; }
 
 .button-rem, .seccion, input,
 textarea {
@@ -966,18 +1065,50 @@ textarea {
 .remeras {
   margin-top: 2rem; }
 
+.rem-cat {
+  transition: 1s; }
+
+.rem-cat:hover {
+  transform: scale(1.2);
+  transition: 2.5s; }
+
 /*Faqs*/
 .faqs {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-areas: "cont1 cont2 cont3 cont4";
+  grid-template-rows: auto;
+  grid-template-columns: repeat(4, 16rem);
   justify-content: center;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+  grid-gap: 55px 30px; }
+
+.contenedor-faqs-1 {
+  grid-area: cont1; }
+
+.contenedor-faqs-2 {
+  grid-area: cont2; }
+
+.contenedor-faqs-3 {
+  grid-area: cont3; }
+
+.contenedor-faqs-4 {
+  grid-area: cont4; }
+
+.contenedor-faqs-1, .contenedor-faqs-2, .contenedor-faqs-3, .contenedor-faqs-4 {
+  text-align: center;
   background-color: #981914;
-  margin: 3rem;
-  margin-top: 8rem;
-  padding: 4rem; }
+  padding: 2rem;
+  transition: 1s;
+  align-items: center;
+  border-radius: 10px; }
+
+.contenedor-faqs-1:hover, .contenedor-faqs-2:hover, .contenedor-faqs-3:hover, .contenedor-faqs-4:hover {
+  transform: scale(1.1);
+  transition: 3s; }
 
 .respuesta {
-  margin-bottom: 50px; }
+  margin-bottom: auto; }
 
 .button-rem, .seccion, input,
 textarea {
@@ -1046,7 +1177,10 @@ textarea {
   .maps {
     grid-area: maps; }
   .info-maps {
-    grid-area: info; } }
+    grid-area: info; }
+  /*FAQS*/
+  .faqs div h2 {
+    font-size: 20px; } }
 
 .button-rem, .seccion, input,
 textarea {
@@ -1073,7 +1207,8 @@ textarea {
     display: block;
     padding: 1rem; }
   .ropa1 {
-    grid-row: span3; }
+    padding: 5PX;
+    border-radius: 15px; }
   .ropa-top div img {
     width: 100%;
     height: 100%;
@@ -1128,12 +1263,21 @@ textarea {
   .cata {
     display: grid;
     grid-template: repeat(2, 1fr)/repeat(2, 1fr);
-    grid-gap: 100px 20px;
-    margin: 1,5rem; }
+    grid-gap: 70px 18px;
+    margin: 1rem; }
   .fts-rem {
-    width: 155px;
-    height: 90px; }
+    align-items: center; }
   .button-rem {
     padding: 3px; }
   .remeras {
-    margin-top: 110px; } }
+    margin-top: 110px; }
+  /*Faqs*/
+  .faqs {
+    display: grid;
+    grid-template-areas: "cont1 cont2" "cont3 cont4";
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 13.5rem);
+    justify-content: center;
+    margin-top: 7rem;
+    margin-bottom: 0.5rem;
+    grid-gap: 55px 20px; } }

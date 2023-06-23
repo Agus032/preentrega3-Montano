@@ -44,3 +44,8 @@ $gris-humo: rgba(244, 244, 244, 0.5);
     flex-direction: column;
     justify-content: space-around
 }
+
+@mixin faqs-cont{
+    background-color: $rojo;
+    padding: 2rem;
+}
